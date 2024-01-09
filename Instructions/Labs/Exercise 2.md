@@ -1,47 +1,45 @@
 # Exercise 1: Create an Incoming Webhook
 
-Suppose you have been asked to help the IT Support team. You need to configure a Finance team to ensure that a third-party notification service can post messages to the Finance team’s external channel by using a webhook named External. Test whether the webhook for the external channel can accept messages by using the Invoke-RestMethod PowerShell cmdlet. Specify the payload by specifying the following parameters: -ContentType 'Application/Json' -Body '{"text":"Hello World!"}'.
+Imagine you are a software developer working with the IT Support team of a large organization. The team uses a third-party notification service to manage alerts and messages. Recently, the team decided to automate the process of posting messages to a Teams channel that is used for critical updates.
 
-## Overview
+The third-party service is being designed to post messages via a webhook.  Your task is to create a new incoming webhook, named **Alerts**, to receive these messages.  You should also test the webhook to ensure it can accept and display a message with the string "Sample Alert!" correctly. The service will be updated with the webhook endpoint URL when you complete your tasks.
 
-### Skilling Tasks
+## Objectives
 
-In this exercise, you will practice the following tasks:
-
-<TODO: Finalize learning objectives>
+In this exercise, you practice how to:
 
 - Create an incoming webhook
-- Create an outgoing webhook
-- Process data received from an incoming webhook 
-- Send data to an outgoing webhook
 
+**Estimated completion time:** 
 
-### Exercise tasks
+## Prerequisites
 
-You will need to complete the following tasks to complete the exercise:
+- Admin access to a Microsoft 365 tenant suitable for development and testing
+- Microsoft Teams
+- PowerShell
+- Experience using Microsoft Teams
 
-- Build Webhooks
-- Post a meswsage
+## Exercise tasks
 
+You need to perform the following tasks to complete the exercise:
 
-## Task 1: Build Webhooks
+## Task 1: Register an incoming webhook
 
-1. Open teams
-2. Select the ellipse for the Finance Team External Channel.
-3. Select Connectors
-4. Search for webhook
-5. Select Add for incoming webhook
-6. Select add again
-7. Select the ellipse for the Finance Team External Channel.
-8. Select Connectors
-9. Select Configure for incoming webhook
-10. For the name enter: External
-11. Select Create
-12. Copy the URL for use in the next part.
-13. Select Done
-14) Verify by  searching for the incoming webhook in the connectors for the channel.
+First, register an incoming webhook.
 
+> [!NOTE]
+> If the Teams account you're using for this exercise doesn't already have a team with a channel in it, create a new channel before completing the following steps.
 
+1. In Microsoft Teams, navigate to a channel where you can configure the webhook.
+2. In the channel, select the **More options** menu then select **Connectors**.  (Note: use the menu within the channel, not the menu from the channel list.)
+3. Search for "webhook" then select **Incoming Webhook**.  Select **Add**.
+4. On the overview page, select **Add**.
+5. In the channel, select the **More options** menu again then select **Connectors**.
+6. Next to **Incoming Webhook** select **Configure**.
+7. For the name enter **"Alerts"**.
+8. Select **Create**.
+9. Copy the **URL** to use in the next task.
+10. Select **Done**.
 
 ## Task 2: Post a Message
 
