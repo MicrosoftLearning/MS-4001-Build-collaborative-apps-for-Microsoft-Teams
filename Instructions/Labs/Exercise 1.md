@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Implement a message extension that retrieves data from Microsoft Graph'
+    module: 'Exercise 1'
+---
+
 # Exercise 1: Implement a message extension that retrieves data from Microsoft Graph
 
 Suppose you have been asked to help the IT Support team build a message extension that allows team members to insert user data into messages using adaptive cards.  In this exercise, you will implement a message extension that retrieves user data from Microsoft Graph.  The solution has already been scaffolded using Teams Toolkit, but you will need to make changes to implement functionality.

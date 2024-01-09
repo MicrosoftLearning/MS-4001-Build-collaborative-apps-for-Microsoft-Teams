@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Create a Teams Tab'
+    module: 'Exercise 3'
+---
+
 # Exercise 1: Create a Teams Tab
 
 Suppose you have been asked to help the IT Support team. You need to modify the App.tsx file to ensure that a user's display name appears correctly after the user launches the app. Retrieve the displayname by using the Teams context and sets the displayname by using the setUserName function.

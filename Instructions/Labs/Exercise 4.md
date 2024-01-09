@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Build a Bot'
+    module: 'Exercise 4'
+---
+
 # Exercise 1: Build a Bot
 
 Suppose you have been asked to help the IT Support team. You need to add a new command named "winner” to the bot. The command must return the winner.json adaptive card. Once you have modified the code, provision the bot to RG1, and then deploy and enable the app for the entire organization.
