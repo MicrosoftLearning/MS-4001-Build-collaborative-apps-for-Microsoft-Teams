@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Create an Incoming Webhook'
+    module: 'Exercise 2'
+---
+
 # Exercise 2: Create an Incoming Webhook
 
 ## Scenario
