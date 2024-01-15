@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-Suppose the IT Support team would like to use a tab to help users review information they need when submitting support tickets.  The team needs users' locale codes for processing and reporting on support tickets. The team has asked you to create a Teams tab that displays a user's locale code.  The app will be updated to display additional information at a later date.
+Suppose the IT Support team wants to create a Teams tab to help users access necessary information when submitting support tickets. For example, the team needs to display users' locale codes for ticket processing and reporting. Your current task is to create this tab to display a user's locale code. Additional information will be added to the tab at a later date.
 
 ## Exercise tasks
 
@@ -28,8 +28,8 @@ You will need to complete the following tasks to complete the exercise:
 1. Select **Create a New app**, and then select **Tab**.
 1. Select **Basic Tab** from the list of available options.
 1. For the programming language, select **TypeScript**.
-2. For **Workspace folder**, select **Default folder**.
-3. For **Application name**, enter **UserInfoApp**.
+1. For **Workspace folder**, select **Default folder**.
+1. For **Application name**, enter **UserInfoApp**.
 
 A notification appears when all folders and files have been scaffolded successfully, and a new instance of Visual Studio Code opens the new project folder.
 
@@ -50,7 +50,7 @@ Now, you can add the desired functionality to the tab app.
       </span>
     ```
 
-1. Navigate to the `src` > `scripts` folder then open the `teamsapp.js` file.
+1. Navigate to the `src` > `static` > `scripts` folder then open the `teamsapp.js` file.
 1. Replace the contents of the file with the following code:
 
     ```typescript
@@ -71,7 +71,7 @@ Now, you can add the desired functionality to the tab app.
         
           function updateLocale(locale) {
             if(locale){
-              document.getElementById("locale").innerHTML = "Locale: " + locale;
+              document.getElementById("locale").innerHTML = locale;
             }
           }
         })();
@@ -85,7 +85,7 @@ Run your app in debug mode to test the functionality.
 
 1. In Visual Studio Code, select the **Microsoft Teams** icon to open the **TEAMS TOOLKIT** panel.
 
-2. In the **ACCOUNTS** section, select **Sign in to Azure**. In the dialog that opens, select the **Sign in** button and enter your Microsoft 365 credentials.
+2. If you are not signed into Azure in Teams Toolkit: In the **ACCOUNTS** section, select **Sign in to Azure**. In the dialog that opens, select the **Sign in** button and enter your Microsoft 365 credentials.
 
    Teams Toolkit requires a Microsoft 365 work or school account with Global Administrator privileges.
 
