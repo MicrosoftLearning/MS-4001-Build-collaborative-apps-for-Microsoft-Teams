@@ -6,6 +6,8 @@ lab:
 
 # Exercise 1: Build a Bot
 
+## Scenario
+
 Suppose the IT Support team you are supporting receives a high volume of common, repetitive queries from employees across the organization. These queries often involve simple issues like password resets, software installation instructions, or troubleshooting common errors.
 
 To streamline the process and reduce the workload on your team, you decide to create a bot that can handle these common queries in Microsoft Teams.
@@ -14,31 +16,14 @@ You decide to add an initial command to the bot named "resetPassword". When a us
 
 In addition to the "resetPassword" command, you plan to add more commands to handle other common queries, turning the bot into a comprehensive self-service tool for the organization's employees.
 
-## Overview
+## Exercise tasks
 
-### Skilling Tasks
+You need to complete the following tasks to complete the exercise:
 
-In this exercise, you will practice the following tasks:
-
-- Create a bot using Teams Toolkit
-- Send an adaptive card from a bot
-- Register a bot in Microsoft Azure
-- Deploy source code to Azure
-- Distribute your app for all users in your organization
-- Pre-install your app for all users in your organization
-
-### Exercise tasks
-
-You will need to complete the following tasks to complete the exercise:
-
-1. Access and review the project
-1. Define the command in the app manifest
-1. Create the adaptive card
-1. Handle the command
-1. Provision resources
-1. Deploy to Azure
-1. Publish to your organization
-1. Pre-install for all users
+1. Create the bot using Teams Toolkit
+2. Configure the manifest
+3. Create an Adaptive Card
+4. Handle the command
 
 **Estimated completion time:** 17 minutes
 

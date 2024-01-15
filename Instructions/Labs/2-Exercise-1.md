@@ -65,8 +65,7 @@ The solution is missing the API path for the Graph query that uses the search st
 
 1. In the `handleTeamsMessagingExtensionQuery` function, locate the following comment on line 84:
 
-      `// Use the Graph API to search for users by their display name.
-    the let users = await graphClient`
+      `// Use the Graph API to search for users by their display name.`
 
 2. In the next line of code, replace `path` with the following API path:
 
