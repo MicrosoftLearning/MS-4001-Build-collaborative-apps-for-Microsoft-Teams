@@ -40,6 +40,8 @@ You will need to complete the following tasks to complete the exercise:
 1. Publish to your organization
 1. Pre-install for all users
 
+**Estimated completion time:** 17 minutes
+
 ## Task 1: Create a bot using Teams Toolkit
 
 Use the Command Bot template to create a new bot:
@@ -160,19 +162,12 @@ Next, handle the command in the bot's source code using the `TeamsFxBotCommandHa
         }
    ```
 
-## Task 3: Provision the bot
+## Check your work
 
-1. Click on Teams Toolikt
-2. Press the Provisioning button select “rg1”
-3. Verify:Check in the resource group if you find a Azure Bot, App Service plan, and App Service resource type.
-4. From Visual Studio code. press the “Publish” button
-5. Verify: For publishing check in the app catalog if there is a “Bot-Dev” application that was approved.
+Run your app locally to test the functionality:
 
-## Task 4: Enable the app package for the organization
-
-1. Sign in to https://admin.teams.microsoft.com/ with your Microsoft 365 account
-2. Click on “Teams apps” -> “Manage apps”
-3. Search for “Bot-Dev” and open it
-4. Click on “Publish”
-5. Confirm with “Publish”
-6. Verify in the Teams app catalog if you find an app called “Company Dashboard-prod" or “Company Dashboard-dev" that is in status “Allowed”.
+1. In the **LIFECYCLE** menu, select **Preview Your Teams App** (or use the `F5` key) then select **Debug in Teams ()** with your preferred browser.  
+2. Teams Toolkit will provision and run your app locally in a browser.
+3. On the app installation dialog in the browser, select **Add** to install your Teams app.  Teams opens a conversation with your bot installed.
+4. Enter or select the command `resetPassword`.
+5. Verify that the bot replies with an adaptive card containing password reset instructions.

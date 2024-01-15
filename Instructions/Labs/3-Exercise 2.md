@@ -30,9 +30,9 @@ First, register an Incoming Webhook.
 1. In Microsoft Teams, navigate to a channel where you can configure the webhook.
 2. In the channel, select the **More options** menu then select **Connectors**.  (Note: use the menu within the channel, not the menu from the channel list.)
 3. Search for `"webhook"` then select **Incoming Webhook**.
-   
+
    :::image type="content" source="../media/add-incoming-webhook.png" alt-text="Screenshot of Webhook in the search bar.":::
-   
+
 4. Select **Add**.
 5. On the overview page, select **Add**.
 6. In the channel, select the **More options** menu again then select **Connectors**.
