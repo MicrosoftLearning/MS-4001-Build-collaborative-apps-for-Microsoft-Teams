@@ -52,7 +52,7 @@ To test the webhook, use PowerShell to send a message to the webhook endpoint.
 2. Run the following command to send the message:
 
      ```powershell
-     Invoke-RestMethod -Method post -ContentType 'Application/Json' -Body '{"text":"Testing the Alerts endpoint."}' -Uri https://prosoftsys1.webhook.office.com/webhookb2/a0f6a407-939a-4d21-a84d-634fbd9367ee@905bf77f-fff7-4edb-b176-d206023157ea/IncomingWebhook/cabcab233a3f45658e5cdaa4e040f66c/de75fac6-a625-41e6-8734-330b4f22c386
+     Invoke-RestMethod -Method post -ContentType 'Application/Json' -Body '{"text":"Testing the Alerts endpoint."}' -Uri <YOUR WEBHOOK URL>
     ```
 
 ## Check your work
