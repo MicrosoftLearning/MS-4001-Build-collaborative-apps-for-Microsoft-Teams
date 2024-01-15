@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Build a Bot'
+    module: 'Exercise 4'
+---
+
 # Exercise 1: Build a Bot
 
 Suppose the IT Support team you are supporting receives a high volume of common, repetitive queries from employees across the organization. These queries often involve simple issues like password resets, software installation instructions, or troubleshooting common errors.

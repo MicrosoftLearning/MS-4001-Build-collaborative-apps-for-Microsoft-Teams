@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Create a Teams Tab'
+    module: 'Exercise 3'
+---
+
 # Exercise 1: Create a Teams Tab
 
 ## Scenario

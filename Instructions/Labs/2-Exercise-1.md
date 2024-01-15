@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Implement a message extension that retrieves data from Microsoft Graph'
+    module: 'Exercise 1'
+---
+
 # Exercise 1: Implement a message extension that retrieves data from Microsoft Graph
 
 ## Scenario
