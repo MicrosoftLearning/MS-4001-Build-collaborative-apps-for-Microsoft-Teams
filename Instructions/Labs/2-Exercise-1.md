@@ -15,11 +15,12 @@ Your goal is to ensure the app has the following functionality:
 
 You need to perform the following tasks to complete the exercise:
 
-1. Complete the search functionality.
-1. Add the Graph queries
-1. Provision the message extension.
-1. Configure permissions to access Microsoft Graph.
-1. Run and test the app.
+1. Access and review the project.
+2. Complete the search functionality.
+3. Add the Graph queries
+4. Provision the message extension.
+5. Configure permissions to access Microsoft Graph.
+6. Run and test the app.
 
 **Estimated completion time:** 25 mins
 
