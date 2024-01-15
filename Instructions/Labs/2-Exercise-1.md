@@ -34,8 +34,8 @@ You need to perform the following tasks to complete the exercise:
 
 The message extension app has been scaffolded using Teams Toolkit.  The app has also been updated to retrieve user data from Microsoft Graph using the Microsoft Graph JavaScript Client Library.  Some of the code is incomplete.
 
-1. Download the **ContactDetails.zip** project from the Starter folder.
-2. Save the **ContactDetails** folder to your machine.  
+1. Download the [ContactDetails.zip](https://github.com/MicrosoftLearning/APL-4001-Build-collaborative-apps-for-Microsoft-Teams/raw/master/Allfiles/Labs/Starter/ContactDetails.zip) project from the [Starter](https://github.com/MicrosoftLearning/APL-4001-Build-collaborative-apps-for-Microsoft-Teams/tree/master/Allfiles/Labs/Starter) folder.
+2. Save the **ContactDetails** folder to your machine and open the folder in Visual Studio Code.  
 3. Review the project directories and files in the Explorer area of Visual Studio Code to familiarize yourself with the source code.  Key files and folders include:
 
 | Folder / File | Contents |
