@@ -12,7 +12,7 @@ Suppose the IT Support team uses a third-party notification service to manage al
 
 ## Exercise tasks
 
-Your task is to create a new Incoming Webhook, named **Alerts**, to receive these messages.  You should also test the webhook to ensure it can accept and display a message with the string `"Sample Alert!"` correctly. The team will update the service with the webhook endpoint URL when you complete your tasks.
+Your task is to create a new Incoming Webhook, named **Alerts**, to receive these messages.  You should also test the webhook to ensure it can accept and display a message with the string `"Testing the Alerts endpoint."` correctly. The team will update the service with the webhook endpoint URL when you complete your tasks.
 
 You need to perform the following tasks to complete the exercise:
 
@@ -59,5 +59,5 @@ To test the webhook, use PowerShell to send a message to the webhook endpoint.
 
 1. In the Microsoft Teams client, navigate to the **Conversations** tab of the configured channel.
 2. Verify the presence of a message in the channel from `Alerts` that reads `"Testing the Alerts endpoint"`.
-   
+
  :::image type="content" source="../media/final-alert-message.png" alt-text="Screenshot of the Configured Permissions view in the Azure Portal.":::
