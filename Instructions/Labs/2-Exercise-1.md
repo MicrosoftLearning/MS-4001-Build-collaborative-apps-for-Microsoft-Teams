@@ -14,19 +14,26 @@ Suppose you have been asked to help the IT Support team build a message extensio
 
 Your goal is to ensure the app has the following functionality:
 
+:::image type="content" source="../media/contact-details-demo1.png" alt-text="Screenshot of the contact details message extension in Teams.":::
+
 - App users enter the name of a user in the message extension UI.
 - The app uses the Graph API `users` endpoint to find users by display name and lists the results.
 - When the app user selects the desired user from the search results, they can insert the desired card into a message in Teams.
 - The card displays the user's display name, email address, and phone number
+
+:::image type="content" source="../media/contact-details-demo2.png" alt-text="Screenshot of contact details app in Teams.":::
+
+:::image type="content" source="../media/contact-details-demo3.png" alt-text="Screenshot of contact details app in Teams - inserting card into message.":::
 
 You need to perform the following tasks to complete the exercise:
 
 1. Access and review the project.
 2. Complete the search functionality.
 3. Add the Graph queries.
-4. Provision the message extension.
+4. Provision resources for the message extension.
 5. Configure permissions to access Microsoft Graph.
-6. Run and test the app.
+6. Deploy to Azure.
+7. Run and test the app.
 
 **Estimated completion time:** 25 mins
 
@@ -75,7 +82,7 @@ The solution is missing the API path for the Graph query that uses the search st
 
 The code should meet functionality requirements now.
 
-## Task 4: Provision the message extension
+## Task 4: Provision resources for the message extension
 
 Next, use Teams Toolkit to provision the resources required for the message extension.
 
@@ -89,7 +96,9 @@ Next, use Teams Toolkit to provision the resources required for the message exte
     :::image type="content" source="../media/new-resource-group.png" alt-text="Screenshot of the Select a resource group menu in Teams Toolkit.":::
 5. On the final dialog to confirm your select, select **Provision**.
 
-When provisioning is complete, a new app registration should be created in your Microsoft 365 tenant using the `dev` environment in Teams Toolkit. Provisioning might take a while.
+    When provisioning is complete, a new app registration should be created in your Microsoft 365 tenant using the `dev` environment in Teams Toolkit. Provisioning might take a while.
+
+    :::image type="content" source="../media/provisioned-resources-dev.png" alt-text="Screenshot of Teams Toolkit for Visual Studio Code showing a provisioned dev environment.":::
 
 ## Task 5: Configure permissions to retrieve Microsoft Graph data
 
@@ -112,13 +121,13 @@ The permission has been configured and consented.
 
 ## Task 6: Deploy to Azure
 
-Deploy and run the app to test the functionality.
+Deploy the app to the provisioned resources in the `dev` environment.
 
 1. On the Teams Toolkit panel, under **Lifecycle**, select **Deploy**.
 2. In the deployment confirmation dialog, select **Deploy**.
 3. Check for confirmation of successful deployment in the Visual Studio Code editor.
 
-The code for the Teams app is successfully hosted in Azure and ready to be published to Teams.
+The message extension is hosted in Azure.
 
 ## Check your work
 
@@ -126,6 +135,12 @@ Preview your app in the Teams client to test the functionality.
 
 1. On the Teams Toolkit panel, under **Development**, select **Preview Your Teams App (F5)**.
 2. In the dropdown menu, select the desired option to **Launch Remote** with your preferred browser.
+
+    :::image type="content" source="../media/launch-remote.png" alt-text="Screenshot of the option to launch remote using Teams Toolkit.":::
+
 3. When you run the app for the first time, all dependencies are downloaded, and the app is built. A browser window opens when the build is complete. This process can take three to five minutes to complete.
 4. Teams displays a window with your app's description and permission requirements.  Select **Add** to add the app.
+
+    :::image type="content" source="../media/add-contact-details-app.png" alt-text="Screenshot of Teams client with the option to install the contact details app.":::
+
 5. When the message extension loads in the Teams client, enter a letter to search users by display name.  Select a result to insert a card into the conversation.
