@@ -23,7 +23,7 @@ You need to perform the following tasks to complete the exercise:
 
 1. Access and review the project.
 2. Complete the search functionality.
-3. Add the Graph queries
+3. Add the Graph queries.
 4. Provision the message extension.
 5. Configure permissions to access Microsoft Graph.
 6. Run and test the app.
@@ -69,7 +69,9 @@ The solution is missing the API path for the Graph query that uses the search st
 
 2. In the next line of code, replace `path` with the following API path:
 
-     `/users?$search="displayName:${searchQuery}"&$count=true`
+     ```TypeScript
+     /users?$search="displayName:${searchQuery}"&$count=true
+     ```
 
 The code should meet functionality requirements now.
 
@@ -87,7 +89,7 @@ Next, use Teams Toolkit to provision the resources required for the message exte
     :::image type="content" source="../media/new-resource-group.png" alt-text="Screenshot of the Select a resource group menu in Teams Toolkit.":::
 5. On the final dialog to confirm your select, select **Provision**.
 
-When provisioning is complete, a new app registration should be created in your tenant. Provisioning might take a while.
+When provisioning is complete, a new app registration should be created in your Microsoft 365 tenant using the `dev` environment in Teams Toolkit. Provisioning might take a while.
 
 ## Task 5: Configure permissions to retrieve Microsoft Graph data
 
