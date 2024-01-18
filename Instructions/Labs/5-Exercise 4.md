@@ -4,7 +4,7 @@ lab:
     module: 'Exercise 4'
 ---
 
-# Exercise 1: Build a Bot
+# Exercise 4: Build a Bot
 
 ## Scenario
 

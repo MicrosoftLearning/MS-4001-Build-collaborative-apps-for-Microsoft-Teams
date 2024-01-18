@@ -4,7 +4,7 @@ lab:
     module: 'Exercise 3'
 ---
 
-# Exercise 1: Create a Teams Tab
+# Exercise 3: Create a Teams Tab
 
 ## Scenario
 
