@@ -45,7 +45,7 @@ Define a `ResetPassword` command in the app manifest:
 
 1. Open the file `manifest.json` from the `appPackage` folder.
 2. In the `bots` object, locate `commandLists`.  There is currently a single command titled `helloWorld`.
-3. Update `commands` with a new `ResetPassword` command:
+3. Replace `commands` with the following code, so that it includes a new `ResetPassword` command as follows:
 
     ```typescript
             "commands": [
@@ -68,51 +68,51 @@ Create an Adaptive Card to be sent in response to the `ResetPassword` command:
 2. Add the following content to the file and save it:
 
    ```json
-    {
-        "type": "AdaptiveCard",
-        "body": [
-            {
-                "type": "TextBlock",
-                "size": "Medium",
-                "weight": "Bolder",
-                "text": "Reset Password Instructions"
-            },
-            {
-                "type": "TextBlock",
-                "text": "1. Navigate to the login page and select 'Forgot Password'.",
-                "wrap": true
-            },
-            {
-                "type": "TextBlock",
-                "text": "2. Enter your email or username and select 'Submit'.",
-                "wrap": true
-            },
-            {
-                "type": "TextBlock",
-                "text": "3. Check your email for a password reset link and select it.",
-                "wrap": true
-            },
-            {
-                "type": "TextBlock",
-                "text": "4. Enter and confirm your new password, then select 'Save'.",
-                "wrap": true
-            },
-            {
-                "type": "TextBlock",
-                "text": "5. Log in with your new password.",
-                "wrap": true
-            }
-        ],
-        "actions": [
-            {
-                "type": "Action.OpenUrl",
-                "title": "Go to Login Page",
-                "url": "https://www.adaptivecards.io/designer/"
-            }
-        ],
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "version": "1.4"
-    }
+        {
+            "type": "AdaptiveCard",
+            "body": [
+                {
+                    "type": "TextBlock",
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "text": "Reset Password Instructions"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "1. Navigate to the login page and select 'Forgot Password'.",
+                    "wrap": true
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "2. Enter your email or username and select 'Submit'.",
+                    "wrap": true
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "3. Check your email for a password reset link and select it.",
+                    "wrap": true
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "4. Enter and confirm your new password, then select 'Save'.",
+                    "wrap": true
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "5. Log in with your new password.",
+                    "wrap": true
+                }
+            ],
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Go to Login Page",
+                    "url": "https://www.adaptivecards.io/designer/"
+                }
+            ],
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "version": "1.4"
+        }
    ```
 
 ## Task 4: Handle the command

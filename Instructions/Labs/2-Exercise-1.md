@@ -42,7 +42,7 @@ You need to perform the following tasks to complete the exercise:
 The message extension app has been scaffolded using Teams Toolkit.  The app has also been updated to retrieve user data from Microsoft Graph using the Microsoft Graph JavaScript Client Library.  Some of the code is incomplete.
 
 1. Download the [ContactDetails.zip](https://github.com/MicrosoftLearning/APL-4001-Build-collaborative-apps-for-Microsoft-Teams/raw/master/Allfiles/Labs/Starter/ContactDetails.zip) project from the [Starter](https://github.com/MicrosoftLearning/APL-4001-Build-collaborative-apps-for-Microsoft-Teams/tree/master/Allfiles/Labs/Starter) folder.
-2. Save the **ContactDetails** folder to your machine and open the folder in Visual Studio Code.  
+2. Extract the contents of the zip file to a folder named **ContactDetails** on your machine then open the folder in Visual Studio Code.  
 3. Review the project directories and files in the Explorer area of Visual Studio Code to familiarize yourself with the source code.  Key files and folders include:
 
 | Folder / File | Contents |
@@ -144,3 +144,5 @@ Preview your app in the Teams client to test the functionality.
     :::image type="content" source="../media/add-contact-details-app.png" alt-text="Screenshot of Teams client with the option to install the contact details app.":::
 
 5. When the message extension loads in the Teams client, enter a letter to search users by display name.  Select a result to insert a card into the conversation.
+
+Note: If for any reason the message extension is not automatically invoked, you can access it by entering "@Contact Details dev" in the command bar at the top of the Teams client or in the compose message area.  You can also use the **Actions and apps** button from the Compose message area to locate the app.
