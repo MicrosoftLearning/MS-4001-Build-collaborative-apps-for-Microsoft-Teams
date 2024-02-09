@@ -24,7 +24,7 @@ Otherwise, you can create a free test account using the [Microsoft 365 Developer
 
 Turn on custom app sideloading for your tenant by following these steps:
 
-1. Sign in to the Microsoft Teams admin center with your Microsoft 365 admin credentials.
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com) with your Microsoft 365 admin credentials.
 
 2. From the sidebar, select **Teams apps**, and then select **Setup policies**.
 
