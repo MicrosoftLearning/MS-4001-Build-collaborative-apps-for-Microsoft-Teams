@@ -9,8 +9,8 @@ You need the following tools to complete the labs for this course:
 - Admin access to a Microsoft 365 tenant.
 - An Azure subscription.
 - Visual Studio Code.
+- Teams Toolkit Visual Studio Code Extension:  Version 5.0.0 or higher. (Installation instructions are in Lab 1)
 - The Microsoft Teams client (for work or school).
-- Teams Toolkit Visual Studio Code Extension:  Version 5.0.0 or higher. (Instructions are in Lab 1)
 - Node.js. Supported versions: 16, 18.
 
 ## Install prerequisite software
