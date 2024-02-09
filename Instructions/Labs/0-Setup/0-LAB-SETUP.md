@@ -17,9 +17,9 @@ You need the following tools to complete the labs for this course:
 
 1. Navigate to the Node.js website: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 2. Navigate to **Previous releases**.
-3. Locate the download for version 16 or 18.  Select **Releases** in the row for the desired version.
-4. Select **win-64**, or your appropriate download type then select **node.exe** to download Node.js.
-5. Open the executable file and follow the prompts to install Node.js.
+3. Locate the download for version 16 (or 18).  Select **Releases** in the row for the desired version.
+4. For version 16, select **node-v16.20.2-x64.msi** to download the installer, or select the appropriate download type for your machine.
+5. Open the installer file and follow the prompts to install Node.js.
 
 ## Sign into Teams
 
