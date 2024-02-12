@@ -89,7 +89,7 @@ Next, use Teams Toolkit to provision the resources required for the message exte
 > Note: Provisioning Azure cloud resources and deploying to Azure may cause charges to your Azure Subscription.
 
 1. In Visual Studio code, select  **Teams Toolkit** from the sidebar.
-2. Under **ACCOUNTS**, sign into your Microsoft 365 tenant and your Azure account.
+2. Under **ACCOUNTS**, sign into your Microsoft 365 tenant and your **Azure account**.
 3. Under **LIFECYCLE**, select **Provision**.
     :::image type="content" source="../../media/toolkit-provision.png" alt-text="Screenshot of the Teams Toolkit extension in Visual Studio Code.":::
 4. Select a resource group where you can provision the resources, or create a new resource group by selecting the **New resource group** option and following the prompts.  
@@ -102,7 +102,7 @@ Next, use Teams Toolkit to provision the resources required for the message exte
 
 ## Task 5: Configure permissions to retrieve Microsoft Graph data
 
-1. Sign into the Azure portal at [portal.azure.com](portal.azure.com) using your **Microsoft 365** admin account.
+1. Sign into the Azure portal at [portal.azure.com](portal.azure.com) using your **Microsoft 365 admin account**.
 2. In the left navigation menu, navigate to **Microsoft Entra ID**.
 3. Navigate to **Manage > App registrations > All registrations**.
 4. Select the **ContactDetails** app registration that was created during provisioning.

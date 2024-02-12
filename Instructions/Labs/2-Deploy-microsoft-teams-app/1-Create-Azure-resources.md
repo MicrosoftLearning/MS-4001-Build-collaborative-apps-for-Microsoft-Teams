@@ -38,6 +38,8 @@ In this exercise, you'll first create and provision a Teams tab app by using Tea
 
 ## Task 2: Sign into Azure in Teams Toolkit
 
+Sign into Azure using your **Azure subscription** account.
+
 1. On the Activity Bar, select the **Microsoft Teams** icon.
 
 1. On the Teams Toolkit panel, under **Accounts**, select **Sign in to Azure**.

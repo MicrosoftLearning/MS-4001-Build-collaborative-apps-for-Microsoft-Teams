@@ -147,6 +147,20 @@ Next, handle the command in the bot's source code using the `TeamsFxBotCommandHa
         }
    ```
 
+## Task 5: Register the new command
+
+Each new command needs to be configured in the `ConversationBot`, which powers the conversational flow of the command bot template.
+
+1. Navigate to the `src/internal/initialize.ts` file.
+2. Add the following import statement on line 2:
+
+    `import { ResetPasswordCommandHandler } from "../resetPasswordCommandHandler";`
+3. On line 20, update the `commands` array of the `command` property to include a statement to initialize the new handler: `new ResetPasswordCommandHandler().  The updated `command` object should be as follows:
+
+   ```json
+   command: {    enabled: true,    commands: [new HelloWorldCommandHandler(), new ResetPasswordCommandHandler()],  },
+    ```
+
 ## Check your work
 
 Run your app locally to test the functionality:

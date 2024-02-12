@@ -85,16 +85,12 @@ Run your app in debug mode to test the functionality.
 
 1. In Visual Studio Code, select the **Microsoft Teams** icon to open the **TEAMS TOOLKIT** panel.
 
-2. If you are not signed into Azure in Teams Toolkit: In the **ACCOUNTS** section, select **Sign in to Azure**. In the dialog that opens, select the **Sign in** button and enter your Microsoft 365 credentials.
-
-   Teams Toolkit requires a Microsoft 365 work or school account with Global Administrator privileges.
-
-3. Start running your app with the debugger attached by using one of these methods:
+2. Start running your app with the debugger attached by using one of these methods:
 
    - Select the F5 key.
-   - In Visual Studio Code, select **Run** > **Start debugging**.
+   - In Visual Studio Code, navigate to the **Run and debug** menu.  Select **Debug in Teams** with your desired browser option then select the **Start debugging** button.
    - In the **ENVIRONMENT** section of Teams Toolkit, open the *local* folder, and then and select the browser of your choice.
 
-4. After Visual Studio Code performs some checks, with actions viewable on the **Console** tab, a new browser window opens. In the **UserInfoApp** dialog, select the **Add** button to install the app in Teams for preview.
+3. After Visual Studio Code performs some checks, with actions viewable on the **Console** tab, a new browser window opens. In the **UserInfoApp** dialog, select the **Add** button to install the app in Teams for preview.
 
 The app is now viewable on the sidebar. The app is pre-configured with two tabs: **Personal Tab** and **About**. Verify that the locale code is displayed in the tab.

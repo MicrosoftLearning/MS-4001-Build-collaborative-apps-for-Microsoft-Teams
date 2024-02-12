@@ -6,7 +6,7 @@ In this exercise you will run the Teams app locally.
 
 1. In Visual Studio Code, open **Teams Toolkit** and select **Sign in to Microsoft 365**.
     :::image type="content" source="../../media/sign-in.png" alt-text="Screenshot of sign-in button in Teams Toolkit for M365":::
-2. In the pop-up dialog, select **Sign in**. You're taken to a browser to sign in with your Microsoft 365 account credentials.  Enter your admin credentials.
+2. In the pop-up dialog, select **Sign in**. You're taken to a browser to sign in with your **Microsoft 365 account credentials**.  Enter your admin credentials.
 3. When you're successfully signed in, close the browser and return to Visual Studio Code. A *Sideloading enabled* message appears under your account on Teams Toolkit to indicate that your tenant is configured properly.
     :::image type="content" source="../../media/sideload-enabled.png" alt-text="Screenshot of the sideloading enabled note in Teams Toolkit.":::
 

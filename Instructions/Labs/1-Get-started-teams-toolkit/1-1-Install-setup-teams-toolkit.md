@@ -16,15 +16,15 @@ You can also install Teams Toolkit from [Visual Studio Marketplace](https://mark
 
 ## Task 2: Prepare your Microsoft 365 work or school account
 
-If you already have admin access to a Microsoft 365 work or school account that is suitable for development and testing, you can use that account to run and debug your app. Ensure that you use a tenant that is safe to perform operations in without impacting real users.
+If you already have admin access to a Microsoft 365 work or school account that is suitable for development and testing, you can use that account to run and debug your app. Be sure to use a tenant that is safe to perform operations in without impacting real users.
 
 Otherwise, you can create a free test account using the [Microsoft 365 Developer Program ](https://aka.ms/m365developers).  After the setup is completed, the Microsoft 365 Developer Program will provide you with admin access to a tenant that you can use for building Teams apps.
 
-## Task 3: Configure a Microsoft 365 tenant to upload apps for Teams
+## Task 3: Configure your Microsoft 365 tenant to upload apps for Teams
 
-Turn on custom app sideloading for your tenant by following these steps:
+Turn on custom app uploading for your tenant by following these steps:
 
-1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com) with your Microsoft 365 admin credentials.
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com) with your **Microsoft 365 admin credentials**.
 
 2. From the sidebar, select **Teams apps**, and then select **Setup policies**.
 
