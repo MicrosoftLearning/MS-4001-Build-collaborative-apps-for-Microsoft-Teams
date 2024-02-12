@@ -38,9 +38,7 @@ First, register an Incoming Webhook.
 6. In the channel, select the **More options** menu again then select **Connectors**.
 7. Next to **Incoming Webhook** select **Configure**.
 8. For the name enter **Alerts**.
-9. Select **Create**.
-10. Copy the **URL** to use in the next task.
-11. Select **Done**.
+9. Select **Create**.  Leave this window open so you can copy the URL during the next task.
 
 You have configured an Incoming Webhook in the channel.
 
@@ -49,7 +47,7 @@ You have configured an Incoming Webhook in the channel.
 To test the webhook, use PowerShell to send a message to the webhook endpoint.
 
 1. Open **PowerShell**.
-2. Run the following command to send the message:
+2. Run the following command to send the message.  Replace <YOUR WEBHOOK URL> with the URL from the webhook configuration window in Teams from the previous task:
 
      ```powershell
      Invoke-RestMethod -Method post -ContentType 'Application/Json' -Body '{"text":"Testing the Alerts endpoint."}' -Uri <YOUR WEBHOOK URL>

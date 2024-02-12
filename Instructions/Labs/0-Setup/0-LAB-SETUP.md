@@ -36,7 +36,20 @@ Install Node.js version 16.14.2, which is compatible with all of the solutions i
 
 You have now installed and configured Node.js version 16.14.2
 
-
 ## Azure subscription
 
-Note that if you have been provided with Azure login information, a resource group has already been created for your use.  For Provisioning tasks throughout the labs, when prompted to "select a resource group or create a new resource group," select the provided resource group.
+Note that if you have been provided with Azure login information, a resource group has already been created for your use.  For Provisioning tasks throughout the labs, when prompted to "select a resource group or create a new resource group," **select the provided resource group**.
+
+## Debugging Teams apps
+
+When debugging your Teams app locally, you may be prompted to install a development certificate for localhost.  You will need to do this in order to debug locally.
+
+When prompted, select **Install**.
+
+:::image type="content" source="../../media/install-certificate.png" alt-text="Screenshot of the prompt to install dev certificate.":::
+
+Then select **Yes** in the Security Warning dialog.
+
+:::image type="content" source="../../media/development-certificate.png" alt-text="Screenshot of the security dialog.":::
+
+Visit the Teams documentation to learn more: [Debug your Teams app locally](https://learn.microsoft.com/microsoftteams/platform/toolkit/debug-local?tabs=Windows&pivots=visual-studio-code-v5)
