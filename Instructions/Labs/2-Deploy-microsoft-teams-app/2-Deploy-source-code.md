@@ -8,15 +8,15 @@ In this exercise, you deploy the source code to your provisioned Azure resources
 
 2. On the Teams Toolkit panel, under **Lifecycle**, select **Deploy**.
 
-    :::image type="content" source="../../media/deploy-button.png" alt-text="Screenshot of the deploy to the cloud link highlighted.":::
+    ![Screenshot of the deploy to the cloud link highlighted.](../../media/deploy-button.png)
 
 3. In the deployment confirmation dialog, select **Deploy**.
 
-    :::image type="content" source="../../media/deploy-confirm.png" alt-text="Screenshot of a dialog to confirm deployment":::.
+    ![Screenshot of a dialog to confirm deployment.](../../media/deploy-confirm.png).
 
 4. Check for confirmation of successful deployment in the Visual Studio Code editor.
 
-    :::image type="content" source="../../media/deploy-success.png" alt-text="Screenshot that shows the deployment was successful.":::
+    ![Screenshot that shows the deployment was successful.](../../media/deploy-success.png)
 
 The code for the Teams tab app is successfully hosted in Azure Storage and ready to be published to Teams.
 

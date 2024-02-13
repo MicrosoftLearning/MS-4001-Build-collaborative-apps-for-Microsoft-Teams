@@ -31,7 +31,7 @@ First, register an Incoming Webhook.
 2. In the channel, select the **More options** menu then select **Connectors**.  (Note: use the menu within the channel, not the menu from the channel list.)
 3. Search for `"webhook"` then select **Incoming Webhook**.
 
-   :::image type="content" source="../../media/add-incoming-webhook.png" alt-text="Screenshot of Webhook in the search bar.":::
+   ![Screenshot of Webhook in the search bar.](../../media/add-incoming-webhook.png)
 
 4. Select **Add**.
 5. On the overview page, select **Add**.
@@ -58,4 +58,4 @@ To test the webhook, use PowerShell to send a message to the webhook endpoint.
 1. In the Microsoft Teams client, navigate to the **Conversations** tab of the configured channel.
 2. Verify the presence of a message in the channel from `Alerts` that reads `"Testing the Alerts endpoint"`.
 
- :::image type="content" source="../../media/final-alert-message.png" alt-text="Screenshot of the Configured Permissions view in the Azure Portal.":::
+ ![Screenshot of the Configured Permissions view in the Azure Portal.](../../media/final-alert-message.png)

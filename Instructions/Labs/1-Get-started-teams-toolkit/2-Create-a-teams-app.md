@@ -7,13 +7,21 @@ Follow one of the tasks below to create a Teams app from a sample or to create a
 ## Task 1: Create an app from a sample
 
 1. In the Visual Studio Code sidebar, select the **Teams Toolkit** button to open Teams Toolkit.
+
 2. In Teams Toolkit for Visual Studio Code, select **View Samples** to view a catalog of sample apps.
-   :::image type="content" source="../../media/view-samples.png" alt-text="Screenshot of the option to view samples.":::
+
+   ![Screenshot of the option to view samples.](../../media/view-samples.png)
+
 3. Find a sample that interests you and select the screenshot to open the page for that sample.  In order to get up and running quickly, select a sample that lists "Ready for debug" under the sample title on the sample's detail page.  (Other samples will list "Manual configurations required").
+
 4. On the sample page, select **Create** and choose a folder for saving your project. The project will be scaffolded in this local folder.
-    :::image type="content" source="../../media/create-sample.png" alt-text="Screenshot of creating an app from a sample.":::
+
+    ![Screenshot of creating an app from a sample.](../../media/create-sample.png)
+
 5. When the scaffolding is done, you'll see a new Visual Studio Code window with the Hello World Bot project loaded.  After the project has been scaffolded, you might get a message from Visual Studio Code that asks if you trust the authors of the files in this folder. Select the **Yes, I trust the authors** button to continue.
-    :::image type="content" source="../../media/trust-authors.png" alt-text="Screenshot of the trust authors dialog.":::
+
+    ![Screenshot of the trust authors dialog.](../../media/trust-authors.png)
+
 6. Now you can view the project code, which includes:
 
 - The Teams app code.
@@ -21,7 +29,7 @@ Follow one of the tasks below to create a Teams app from a sample or to create a
 - Environment variables inside the env folder.
 - A README file that provides required steps to run, debug, and deploy the app.
 
-    :::image type="content" source="../../media/bot-project-code.png" alt-text="Screenshot of a scaffolded app.":::
+    ![Screenshot of a scaffolded app.](../../media/bot-project-code.png)
 
 ## Task 2: Create a new Teams app
 

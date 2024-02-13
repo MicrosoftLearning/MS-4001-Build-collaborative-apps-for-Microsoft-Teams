@@ -14,16 +14,16 @@ Suppose you have been asked to help the IT Support team build a message extensio
 
 Your goal is to ensure the app has the following functionality:
 
-:::image type="content" source="../../media/contact-details-demo1.png" alt-text="Screenshot of the contact details message extension in Teams.":::
+![Screenshot of the contact details message extension in Teams.](../../media/contact-details-demo1.png)
 
 - App users enter the name of a user in the message extension UI.
 - The app uses the Graph API `users` endpoint to find users by display name and lists the results.
 - When the app user selects the desired user from the search results, they can insert the desired card into a message in Teams.
 - The card displays the user's display name, email address, and phone number
 
-:::image type="content" source="../../media/contact-details-demo2.png" alt-text="Screenshot of contact details app in Teams.":::
+![Screenshot of contact details app in Teams.](../../media/contact-details-demo2.png)
 
-:::image type="content" source="../../media/contact-details-demo3.png" alt-text="Screenshot of contact details app in Teams - inserting card into message.":::
+![Screenshot of contact details app in Teams - inserting card into message.](../../media/contact-details-demo3.png)
 
 You need to perform the following tasks to complete the exercise:
 
@@ -91,14 +91,14 @@ Next, use Teams Toolkit to provision the resources required for the message exte
 1. In Visual Studio code, select  **Teams Toolkit** from the sidebar.
 2. Under **ACCOUNTS**, sign into your Microsoft 365 tenant and your **Azure account**.
 3. Under **LIFECYCLE**, select **Provision**.
-    :::image type="content" source="../../media/toolkit-provision.png" alt-text="Screenshot of the Teams Toolkit extension in Visual Studio Code.":::
+    ![Screenshot of the Teams Toolkit extension in Visual Studio Code.](../../media/toolkit-provision.png)
 4. Select a resource group where you can provision the resources, or create a new resource group by selecting the **New resource group** option and following the prompts.  
-    :::image type="content" source="../../media/new-resource-group.png" alt-text="Screenshot of the Select a resource group menu in Teams Toolkit.":::
+    ![Screenshot of the Select a resource group menu in Teams Toolkit.](../../media/new-resource-group.png)
 5. On the final dialog to confirm your select, select **Provision**.
 
     When provisioning is complete, a new app registration should be created in your Microsoft 365 tenant using the `dev` environment in Teams Toolkit. Provisioning might take a while.
 
-    :::image type="content" source="../../media/provisioned-resources-dev.png" alt-text="Screenshot of Teams Toolkit for Visual Studio Code showing a provisioned dev environment.":::
+    ![Screenshot of Teams Toolkit for Visual Studio Code showing a provisioned dev environment.](../../media/provisioned-resources-dev.png)
 
 ## Task 5: Configure permissions to retrieve Microsoft Graph data
 
@@ -111,10 +111,10 @@ Next, use Teams Toolkit to provision the resources required for the message exte
 7. Select **Microsoft Graph.**
 8. Select **Delegated permissions.**
 9. Locate the permissions listed under **User** and select the **User.Read.All** permission.
-    :::image type="content" source="../../media/user-permissions.png" alt-text="Screenshot of the Graph permissions in the Azure portal.":::
+    ![Screenshot of the Graph permissions in the Azure portal.](../../media/user-permissions.png)
 10. Select the **Add permissions** button.
 11. The permission is configured, but requires admin consent.
-    :::image type="content" source="../../media/configured-permissions-consent.png" alt-text="Screenshot of the Configured Permissions view in the Azure Portal.":::
+    ![Screenshot of the Configured Permissions view in the Azure Portal.](../../media/configured-permissions-consent.png)
 12. Select **Grant admin consent for [tenant]** then select **Yes** to confirm.
 
 The permission has been configured and consented.
@@ -136,12 +136,12 @@ Preview your app in the Teams client to test the functionality.
 1. On the Teams Toolkit panel, under **Development**, select **Preview Your Teams App (F5)**.
 2. In the dropdown menu, select the desired option to **Launch Remote** with your preferred browser.
 
-    :::image type="content" source="../../media/launch-remote.png" alt-text="Screenshot of the option to launch remote using Teams Toolkit.":::
+    ![Screenshot of the option to launch remote using Teams Toolkit.](../../media/launch-remote.png)
 
 3. When you run the app for the first time, all dependencies are downloaded, and the app is built. A browser window opens when the build is complete. This process can take three to five minutes to complete.
 4. Teams displays a window with your app's description and permission requirements.  Select **Add** to add the app.
 
-    :::image type="content" source="../../media/add-contact-details-app.png" alt-text="Screenshot of Teams client with the option to install the contact details app.":::
+    ![Screenshot of Teams client with the option to install the contact details app.](../../media/add-contact-details-app.png)
 
 5. When the message extension loads in the Teams client, enter a letter to search users by display name.  Select a result to insert a card into the conversation.
 

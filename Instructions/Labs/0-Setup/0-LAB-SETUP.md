@@ -46,10 +46,10 @@ When debugging your Teams app locally, you may be prompted to install a developm
 
 When prompted, select **Install**.
 
-:::image type="content" source="../../media/install-certificate.png" alt-text="Screenshot of the prompt to install dev certificate.":::
+![Screenshot of the prompt to install dev certificate.](../../media/install-certificate.png)
 
 Then select **Yes** in the Security Warning dialog.
 
-:::image type="content" source="../../media/development-certificate.png" alt-text="Screenshot of the security dialog.":::
+![Screenshot of the security dialog.](../../media/development-certificate.png)
 
 Visit the Teams documentation to learn more: [Debug your Teams app locally](https://learn.microsoft.com/microsoftteams/platform/toolkit/debug-local?tabs=Windows&pivots=visual-studio-code-v5)

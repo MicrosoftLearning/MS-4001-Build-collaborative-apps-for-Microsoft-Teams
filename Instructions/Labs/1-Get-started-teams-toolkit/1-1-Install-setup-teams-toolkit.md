@@ -8,7 +8,7 @@ In this exercise, you'll install Teams Toolkit for Visual Studio Code and set up
 2. Select the **Extensions** icon from the sidebar.
 3. Search for "Teams Toolkit" in the **Extensions** section by using the search bar. Then select **Install**.
 
-:::image type="content" source="../../media/teams-toolkit-install.png" alt-text="Screenshot of installing Teams Toolkit on Visual Studio Code.":::
+![Screenshot of installing Teams Toolkit on Visual Studio Code.](../../media/teams-toolkit-install.png)
 
 **Note**:  The exercises in this module use Teams Toolkit v5.0.0.
 
@@ -18,7 +18,7 @@ You can also install Teams Toolkit from [Visual Studio Marketplace](https://mark
 
 If you already have admin access to a Microsoft 365 work or school account that is suitable for development and testing, you can use that account to run and debug your app. Be sure to use a tenant that is safe to perform operations in without impacting real users.
 
-Otherwise, you can create a free test account using the [Microsoft 365 Developer Program ](https://aka.ms/m365developers).  After the setup is completed, the Microsoft 365 Developer Program will provide you with admin access to a tenant that you can use for building Teams apps.
+Otherwise, you can create a free test account using the [Microsoft 365 Developer Program](https://aka.ms/m365developers).  After the setup is completed, the Microsoft 365 Developer Program will provide you with admin access to a tenant that you can use for building Teams apps.
 
 ## Task 3: Configure your Microsoft 365 tenant to upload apps for Teams
 
@@ -28,8 +28,9 @@ Turn on custom app uploading for your tenant by following these steps:
 
 2. From the sidebar, select **Teams apps**, and then select **Setup policies**.
 
-3. Select the **Global (Org-wide default) policy**, and then turn on the **Upload custom apps** toggle. 
-   :::image type="content" source="../../media/configure-upload-apps.png" alt-text="Screenshot of configuring custom app uploading.":::
+3. Select the **Global (Org-wide default) policy**, and then turn on the **Upload custom apps** toggle.
+
+   ![Screenshot of configuring custom app uploading.](../../media/configure-upload-apps.png)
 
 4. Select the **Save** button to save your changes. Your tenant is now configured to allow custom app sideloading.
 
