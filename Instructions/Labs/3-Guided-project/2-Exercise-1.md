@@ -59,7 +59,7 @@ The message extension app has been scaffolded using Teams Toolkit.  The app has 
 
 The solution is missing code to store the value of the search query string for use in the Graph query.  Update the code to store this value in a variable named  `searchQuery`.
 
-1. Navigate to the **TeamsBot.ts** file.
+1. Navigate to the **teamsBot.ts** file.
 2. In the `handleTeamsMessagingExtensionQuery` method, locate the comment **// Get the search context from the query parameters.** on line 81 and add the following line of code on the next line:
 
     ```JavaScript
@@ -74,7 +74,7 @@ The solution is missing the API path for the Graph query that uses the search st
 
       `// Use the Graph API to search for users by their display name.`
 
-2. In the next line of code, replace `path` with the following API path:
+2. In the next line of code, replace `PATH` with the following API path:
 
      ```TypeScript
      /users?$search="displayName:${searchQuery}"&$count=true
@@ -105,7 +105,7 @@ Next, use Teams Toolkit to provision the resources required for the message exte
 1. Sign into the Azure portal at [portal.azure.com](portal.azure.com) using your **Microsoft 365 admin account**.
 2. In the left navigation menu, navigate to **Microsoft Entra ID**.
 3. Navigate to **Manage > App registrations > All registrations**.
-4. Select the **ContactDetails** app registration that was created during provisioning.
+4. Select the **Contact Details** app registration that was created during provisioning.
 5. Navigate to **Manage > API permissions.**
 6. Select **+Add a permission.**
 7. Select **Microsoft Graph.**
