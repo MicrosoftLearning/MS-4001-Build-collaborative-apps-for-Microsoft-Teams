@@ -10,7 +10,7 @@ In this exercise you will run the Teams app locally.
 
 2. In the pop-up dialog, select **Sign in**. You're taken to a browser to sign in with your **Microsoft 365 account credentials**.  Enter your admin credentials.
 
-3. When you're successfully signed in, close the browser and return to Visual Studio Code. A *Sideloading enabled* message appears under your account on Teams Toolkit to indicate that your tenant is configured properly.
+3. When you're successfully signed in, close the browser and return to Visual Studio Code. A **Custom App Upload Enabled** message appears under your account on Teams Toolkit to indicate that your tenant is configured properly.
 
     ![Screenshot of the sideloading enabled note in Teams Toolkit.](../../media/sideload-enabled.png)
 

@@ -175,7 +175,7 @@ If your development environment does not support Teams Toolkit dev tunnel, you c
       ```powershell
       setx PATH "$Env:path;<ngrok_full_path>"
       ```
-      _In PowerShell environment, replace `<your_auth_token>` with the authentication token provided on the ngrok website._
+      _In PowerShell environment, replace `<ngrok_full_path>` with the `ngrok.exe` located path._
       > To apply this environment variable change, you need to restart terminals and **Visual Studio Code** for the current project.
 
    1. Open a terminal or command prompt and run the following command to authenticate your ngrok account:
@@ -183,14 +183,13 @@ If your development environment does not support Teams Toolkit dev tunnel, you c
       ngrok config add-authtoken <your_auth_token>
       ```
       _Replace `<your_auth_token>` with the authentication token provided on the ngrok website._
-   1. To start a tunnel, run the following command:
+   1. To start a tunnel on port 3978, run the following command:
       ```shell
-      ngrok http <port_number>
+      ngrok http 3978
       ```
-      _Replace `<port_number>` with the port number your app is running on._
    1. Ngrok will generate a forwarding URL that you can use to access your app from the internet.
       ```shell
-      Forwarding      http://<random_string>.ngrok-free.app -> http://localhost:<port_number>
+      Forwarding      http://<random_string>.ngrok-free.app -> http://localhost:3978
       ```
    1. Click `Ctrl + C` to disconnect the ngrok tunnel.
 1. Navigate to the `.vscode` folder then open the `task.json` file. Update `Start local tunnel` task:
@@ -265,7 +264,7 @@ If your development environment does not support Teams Toolkit dev tunnel, you c
 
 Run your app locally to test the functionality:
 
-1. In the **LIFECYCLE** menu, select **Preview Your Teams App** (or use the `F5` key) then select **Debug in Teams ()** with your preferred browser.  
+1. Open the **TEAMS TOOLKIT** pannel. In the **DEVELOPMENT** menu, select **Preview Your Teams App** (or use the `F5` key) then select **Debug in Teams ()** with your preferred browser.  
 2. Teams Toolkit will provision and run your app locally in a browser.
 3. On the app installation dialog in the browser, select **Add** to install your Teams app.  Teams opens a conversation with your bot installed.
 4. Enter or select the command `resetPassword`.

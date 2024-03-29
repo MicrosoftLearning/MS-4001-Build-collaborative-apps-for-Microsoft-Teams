@@ -91,6 +91,6 @@ Run your app in debug mode to test the functionality.
    - In Visual Studio Code, navigate to the **Run and debug** menu.  Select **Debug in Teams** with your desired browser option then select the **Start debugging** button.
    - In the **ENVIRONMENT** section of Teams Toolkit, open the *local* folder, and then and select the browser of your choice.
 
-3. After Visual Studio Code performs some checks, with actions viewable on the **Console** tab, a new browser window opens. In the **UserInfoApp** dialog, select the **Add** button to install the app in Teams for preview.
+3. After Visual Studio Code performs some checks, with actions viewable on the **Console** tab, a new browser window opens. In the **UserInfoApplocal** dialog, select the **Add** button to install the app in Teams for preview.
 
 The app is now viewable on the sidebar. The app is pre-configured with two tabs: **Personal Tab** and **About**. Verify that the locale code is displayed in the tab.
