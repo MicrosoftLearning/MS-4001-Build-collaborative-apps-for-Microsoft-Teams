@@ -2,7 +2,7 @@
 
 In this exercise, you'll first create and provision a Teams tab app by using Teams Toolkit for Visual Studio Code. In a later exercise, you'll set up the app to be hosted in Azure.
 
-**Note**:  The exercises in this training module use Teams Toolkit v5.0.0. The following steps assume the Teams Toolkit extension is installed.
+**Note**:  The exercises in this training module use Teams Toolkit v5.6.0. The following steps assume the Teams Toolkit extension is installed.
 
 ## Task 1: Create a new tab app
 
