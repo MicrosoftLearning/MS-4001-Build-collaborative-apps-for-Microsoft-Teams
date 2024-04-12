@@ -1,0 +1,27 @@
+[
+    {
+        "name": "updateProjectInformation",
+        "description": "updates the information for the existing project",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "projectName": {
+                    "type": "string",
+                    "description": "The name of the project"
+                },
+                "tasksAccomplished": {
+                    "type": "string",
+                    "description": "tasks that have been accomplished"
+                },
+                "tasksComing": {
+                    "type": "string",
+                    "description": "tasks that are coming up"
+                },
+                "blockingIssues": {
+                    "type": "string",
+                    "description": "any blocking issues"
+                }
+            }
+        }
+    }
+]
