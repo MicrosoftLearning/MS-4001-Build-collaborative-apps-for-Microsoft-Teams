@@ -56,7 +56,7 @@ const app = new Application({
 // List for /reset command and then delete the conversation state
 app.message('/reset', async (context: TurnContext, state: ApplicationTurnState) => {
   state.deleteConversationState();
-  await context.sendActivity("Clearing your project information.");
+  await context.sendActivity("Your project information has been cleared.");
 });
 
 // Define the method for updating project information
