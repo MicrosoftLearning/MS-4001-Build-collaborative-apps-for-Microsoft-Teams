@@ -81,7 +81,7 @@ Use the AI Chat Bot template to create a new bot:
     // See https://aka.ms/teams-ai-library to learn more about the Teams AI library.
     import { Application, ActionPlanner, OpenAIModel, PromptManager, DefaultConversationState, TurnState } from "@microsoft/teams-ai";
     ```
-1. In the file *src/app.ts*, add `ProjectInformation` interface and `ApplicationTurnState` definition.
+1. In the file *src/app.ts* before the section *Create AI components*,  add `ProjectInformation` interface and `ApplicationTurnState` definition.
     ```typescript
     // Register project information item related handlers
     interface ProjectInformation {
@@ -97,13 +97,15 @@ Use the AI Chat Bot template to create a new bot:
       projectInformation: ProjectInformation;
     }
     type ApplicationTurnState = TurnState<ConversationState>;
+
+    // Create AI components
     ```
-1. In the file *src/app.ts*, add the bot's response to messages.
+1. In the file *src/app.ts* after the section *Define storage and application*, add the bot's response to messages.
     ```typescript
     // List for /reset command and then delete the conversation state
     app.message('/reset', async (context: TurnContext, state: ApplicationTurnState) => {
       state.deleteConversationState();
-      await context.sendActivity("Clearing your project information.");
+      await context.sendActivity("Your project information has been cleared.");
     });
 
     // Define the method for updating project information
