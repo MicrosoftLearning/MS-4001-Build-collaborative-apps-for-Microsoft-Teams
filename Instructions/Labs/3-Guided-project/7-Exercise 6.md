@@ -239,7 +239,7 @@ Use the Command Bot template to create a new bot:
 
    ```
 
-## Task 4: Handle the command
+## Task 4: Handle messages
 
 In this step, we will add message response functionality to the `app` object.
 
