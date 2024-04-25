@@ -27,6 +27,8 @@ To run the AI Chat Bot template on your local development machine, you not only 
 
 ## Task 1: Create a bot using Teams AI library
 
+**Goal:** Set up a new bot project using the Teams AI library and familiarize yourself with the project structure and files.  
+
 Use the AI Chat Bot template to create a new bot:
 
 1. Open Visual Studio Code.
@@ -40,6 +42,8 @@ Use the AI Chat Bot template to create a new bot:
 1. Review the project directories and files using the Explorer in Visual Studio Code to familiarize yourself with the source code.
 
 ## Task 2: Connect to OpenAI service
+
+**Goal:** Configure your bot to connect to an OpenAI service, either through OpenAI directly or using Azure OpenAI, by setting up the necessary API keys and endpoints.  
 
 ### Use OpenAI account
 1. Open the file `.env.local.user` from the `env` folder.
@@ -70,6 +74,8 @@ Use the AI Chat Bot template to create a new bot:
     ```
 
 ## Task3: Implement code functionality
+
+**Goal:** Develop the core functionalities of your bot by modifying the app.ts file, adding necessary imports, and implementing response logic to handle user interactions.  
 
 1. Open the file *src/app.ts*. We will modify this file according to the following steps. The final file can be referenced in [app.ts](../../../Allfiles/Labs/Guided-Exercise5/app.ts).
 1. Add `TurnContext` import from `botbuilder` 
@@ -143,6 +149,9 @@ Use the AI Chat Bot template to create a new bot:
     ```
 
 ## Task4: Prompt Updates
+
+**Goal:** Refine the bot's conversational prompts and configure function calling to enhance interaction quality and effectiveness in generating weekly reports.
+
 1. Update the `skprompt.txt` file in the *src/prompts/chat* folder.  The final file can be referenced in [skprompt.txt](../../../Allfiles/Labs/Guided-Exercise5/skprompt.txt)
     ```txt
     You are a Teams Bot. Here is how you will act.
