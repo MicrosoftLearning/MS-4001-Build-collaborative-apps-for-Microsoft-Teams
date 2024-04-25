@@ -23,6 +23,8 @@ You need to complete the following tasks to complete the exercise:
 
 ## Task 1: Create a Teams Bot Using the Teams Toolkit Template
 
+**Goal**: Initialize a basic Teams bot project using the Teams Toolkit in Visual Studio Code.
+
 Use the Command Bot template to create a new bot:
 
 1. Open Visual Studio Code.
@@ -36,6 +38,8 @@ Use the Command Bot template to create a new bot:
 1. Review the project directories and files using the Explorer in Visual Studio Code to familiarize yourself with the source code.
 
 ## Task 2: Integrate the Teams AI Library
+
+**Goal**: Add the Teams AI library to your project to enhance the bot's capabilities.
 
 1. In Visual Code, press ``Ctrl + ` `` to open the Terminal.
 1. In the Terminal, run the following command to install the required Teams AI library and axios packages. The axios package is a promise-based HTTP client that we will use in this exercise to call web APIs.
@@ -79,6 +83,8 @@ Use the Command Bot template to create a new bot:
       ```
 
 ## Task 3: Create Adaptive Cards
+
+**Goal**: Design and implement Adaptive Cards for static and dynamic data interactions within the bot.
 
 1. Create a folder named `cards` in this project root directory.
 1. In the `cards` folder, create a file named `staticSearchCard.ts` with the following content. The final file of `staticSearchCard.ts` can be referenced in [staticSearchCard.ts](../../../Allfiles/Labs/Guided-Exercise6/staticSearchCard.ts).
@@ -240,6 +246,8 @@ Use the Command Bot template to create a new bot:
    ```
 
 ## Task 4: Handle messages
+
+**Goal**: Develop the bot's ability to respond to user inputs and interact through Adaptive Cards.
 
 In this step, we will add message response functionality to the `app` object.
 
