@@ -31,7 +31,7 @@ Use the AI Chat Bot template to create a new bot:
 
 1. Open Visual Studio Code.
 1. On the sidebar, select the **Microsoft Teams** icon to open the **TEAMS TOOLKIT** panel.
-1. Click **Create a New App** button.
+1. Select **Create a New App** button.
 1. From the **New Project** menu, select **Bot** then select **AI Chat Bot** to build a command bot.
 1. For Programming Language, select **TypeScript**.
 1. For **workspace folder** select or create a folder to store your project files on your computer.
