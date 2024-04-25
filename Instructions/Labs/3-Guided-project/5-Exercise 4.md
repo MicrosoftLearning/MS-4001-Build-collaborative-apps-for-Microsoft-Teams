@@ -33,7 +33,7 @@ Use the Command Bot template to create a new bot:
 
 1. Open Visual Studio Code.
 1. On the sidebar, select the **Microsoft Teams** icon to open the **TEAMS TOOLKIT** panel.
-1. Click **Create a New App** button.
+1. Select **Create a New App** button.
 1. From the **New Project** menu, select **Bot** then select **Chat Command** to build a command bot.
 1. For Programming Language, select **TypeScript**.
 1. For **workspace folder** select or create a folder to store your project files on your computer.
@@ -190,7 +190,7 @@ If your development environment does not support Teams Toolkit dev tunnel, you c
       ```shell
       Forwarding      http://<random_string>.ngrok-free.app -> http://localhost:3978
       ```
-   1. Click `Ctrl + C` to disconnect the ngrok tunnel.
+   1. Select `Ctrl + C` to disconnect the ngrok tunnel.
 1. Navigate to the `.vscode` folder then open the `task.json` file. Update `Start local tunnel` task:
    ```json
     {

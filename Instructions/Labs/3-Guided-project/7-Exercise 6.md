@@ -27,7 +27,7 @@ Use the Command Bot template to create a new bot:
 
 1. Open Visual Studio Code.
 1. On the sidebar, select the **Microsoft Teams** icon to open the **TEAMS TOOLKIT** panel.
-1. Click **Create a New App** button.
+1. Select **Create a New App** button.
 1. From the **New Project** menu, select **Bot** then select **Basic Bot** to build a simple bot.
 1. For Programming Language, select **TypeScript**.
 1. For **workspace folder** select or create a folder to store your project files on your computer.
@@ -342,6 +342,6 @@ Run your app locally to test the functionality:
 1. Teams Toolkit will provision and run your app locally in a browser.
 1. On the app installation dialog in the browser, select **Add** to install your Teams app.  Teams opens a conversation with your bot installed.
 1. In the message dialog box, enter `static search` and press Enter. The bot will return an Adaptive Card.
-1. In the input box, select or enter a state name and click the **Submit** button. The bot will return the abbreviation for that state name. ![Screenshot of adaptive card static search](../../media/static-search.png)
+1. In the input box, select or enter a state name and select the **Submit** button. The bot will return the abbreviation for that state name. ![Screenshot of adaptive card static search](../../media/static-search.png)
 1. In the message dialog box, enter `dynamic search` and press Enter.
-1. In the input dialog box, enter a US ZIP Code and click the **Submit** button. The bot will return the current weather for that area. ![Screenshot of adaptive card dynamic search](../../media/dynamic-search.png)
+1. In the input dialog box, enter a US ZIP Code and select the **Submit** button. The bot will return the current weather for that area. ![Screenshot of adaptive card dynamic search](../../media/dynamic-search.png)
