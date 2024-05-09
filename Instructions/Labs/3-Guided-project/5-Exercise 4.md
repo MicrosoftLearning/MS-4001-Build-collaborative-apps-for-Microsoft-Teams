@@ -157,7 +157,7 @@ Each new command needs to be configured in the `ConversationBot`, which powers t
 2. Add the following import statement on line 2:
 
     `import { ResetPasswordCommandHandler } from "../resetPasswordCommandHandler";`
-3. On line 20, update the `commands` array of the `command` property to include a statement to initialize the new handler: `new ResetPasswordCommandHandler().  The updated `command` object should be as follows:
+3. On line 20, update the `commands` array of the `command` property to include a statement to initialize the new handler: `new ResetPasswordCommandHandler()`.  The updated `command` object should be as follows:
 
    ```json
    command: {    enabled: true,    commands: [new HelloWorldCommandHandler(), new ResetPasswordCommandHandler()],  },
