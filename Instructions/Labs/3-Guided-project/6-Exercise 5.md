@@ -34,8 +34,10 @@ Use the AI Chat Bot template to create a new bot:
 1. Open Visual Studio Code.
 1. On the sidebar, select the **Microsoft Teams** icon to open the **TEAMS TOOLKIT** panel.
 1. Select **Create a New App** button.
-1. From the **New Project** menu, select **Bot** then select **AI Chat Bot** to build a command bot.
+1. From the **New Project** menu, select **Custom Copilot** then select **Basic AI Chatbot** to build a command bot.
 1. For Programming Language, select **TypeScript**.
+1. For **Service for Large Language Model(LLMs)**, choose either **Azure OpenAI** or **OpenAI** based on your LLM account.
+1. Enter your OpenAI key and endpoint as prompted based on your LLM account type. Or press Enter to skip first. Set up the OpenAI key in the next step.
 1. For **workspace folder** select or create a folder to store your project files on your computer.
 1. For **Application name**, enter **WeeklyReportChatBot** then press **Enter**. Teams Toolkit will scaffold a new app and open the project folder in Visual Studio Code.
 1. You may receive a message from Visual Studio Code that asks if you trust the authors of the files in this folder. Select the **Yes, I trust the authors** button to continue.
@@ -49,29 +51,12 @@ Use the AI Chat Bot template to create a new bot:
 1. Open the file `.env.local.user` from the `env` folder.
 1. In the file *env/.env.local.user*, fill in your OpenAI key `SECRET_OPENAI_API_KEY=<your-key>`.
 1. Open the file `app.ts` from the `src` folder.
-1. (Optional) Since this demonstration uses the model's planning capabilities, gpt-4 offers a significant improvement over the default gpt-3.5 output. In the file *src/app.ts*, in the *Create AI components* section, change `defaultModel: "gpt-3.5-turbo"` to `defaultModel: "gpt-4"` or `defaultModel: "gpt-4-turbo"`.
+1. (Optional) Since this demonstration uses the model's planning capabilities, gpt-4 offers a significant improvement over the default gpt-3.5 output. In the file *src/config.ts*, update *openAIModelName* property value from `"gpt-3.5-turbo"` to `"gpt-4"` or `"gpt-4-turbo"`.
 
 ### User Azure OpenAI
 1. Open the file `.env.local.user` from the `env` folder.
-1. In the file *env/.env.local.user*, fill in your Azure OpenAI key `SECRET_AZURE_OPENAI_API_KEY=<azure-openai-api-key>` and Azure OpenAI Endpoint `SECRET_AZURE_OPENAI_ENDPOINT=<azure-openai-endpoint>`.
-1. Open the file `app.ts` from the `src` folder.
-1. In the file *src/app.ts*, *Create AI components* section, comment out *"Use OpenAI"* part and uncomment *"use Azure OpenAI"* part, then update `azureDefaultDeployment` to your own model deployment name.
-    ```typescript
-    // Create AI components
-    const model = new OpenAIModel({
-      // Use OpenAI
-      // apiKey: config.openAIKey,
-      // defaultModel: "gpt-3.5-turbo",
-
-      // Uncomment the following lines to use Azure OpenAI
-      azureApiKey: config.azureOpenAIKey,
-      azureDefaultDeployment: "gpt-4", //update to your model name
-      azureEndpoint: config.azureOpenAIEndpoint,
-
-      useSystemMessages: true,
-      logRequests: true,
-    });
-    ```
+1. In the file *env/.env.local.user*, fill in your Azure OpenAI key `SECRET_AZURE_OPENAI_API_KEY=<azure-openai-api-key>` and Azure OpenAI Endpoint `AZURE_OPENAI_ENDPOINT=<azure-openai-endpoint>` and Azure OpenAI Deployment name
+`AZURE_OPENAI_DEPLOYMENT_NAME=<azure-openai-deployment-name>`.
 
 ## Task3: Implement code functionality
 
