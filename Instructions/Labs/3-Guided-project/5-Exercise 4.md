@@ -260,6 +260,7 @@ If your development environment does not support Teams Toolkit dev tunnel, you c
                     echo "::set-teamsfx-env BOT_DOMAIN=${endpoint:8}"
                 fi
      ```
+     
 ## Check your work
 
 Run your app locally to test the functionality:
