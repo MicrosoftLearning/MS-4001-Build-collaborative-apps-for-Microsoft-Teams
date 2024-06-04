@@ -37,7 +37,7 @@ Now that your app is published in the organization store, open Microsoft Teams a
 
 ## Task 2: Install the app from the store
 
-1. Open the Microsoft Teams client or sign in to Microsoft Teams online ([teams.microsoft.com](teams.microsoft.com)) using your **Microsoft 365 tenant credentials**.
+1. Open the Microsoft Teams client or sign in to Microsoft Teams online ([teams.microsoft.com](https://teams.microsoft.com/)) using your **Microsoft 365 tenant credentials**.
 2. In Microsoft Teams, go to **Apps** to view the organization store. Under **Built for your org**, select the **hello-tabdev** tile.
 
     a. ![Screenshot of the organization store with the hello-tab app highlighted.](../../media/org-store.png)
