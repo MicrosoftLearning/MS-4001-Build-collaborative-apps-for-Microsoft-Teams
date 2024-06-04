@@ -130,7 +130,6 @@ Next, handle the command in the bot's source code using the `TeamsFxBotCommandHa
     import { AdaptiveCards } from "@microsoft/adaptivecards-tools";
     import rawResetPasswordCard from "./adaptiveCards/resetPassword.json";
    ```
-
 3. Below the import statements, add the following code to implement the command handler, then save the file:
 
    ```typescript
