@@ -24,9 +24,12 @@ Let's run the project and see how it will look in Microsoft Teams.
 4. Next, Teams Toolkit opens Microsoft Teams in the browser you selected.
 5. Sign in with the same **Microsoft 365** account that you used to sign in to Teams Toolkit.
 6. Then, Teams displays an option to install your app. Select **Add** to preview the app.
-7. When you're previewing, the name of your app is suffixed with *local*. The suffix indicates that the app is running locally and has not been deployed.
 
     ![Screenshot of the dialog for installing a Teams app.](../../media/add-teams-app.png)
+
+7. When you're previewing, the name of your app is suffixed with *local*. The suffix indicates that the app is running locally and has not been deployed.
+
+    ![Screenshot of the web page for tab in local.](../../media/run-tab-local.png)
 
 8. To learn more about the project structure and how to use and customize your app, open the **README.md** file under the project folder.
 

@@ -18,10 +18,10 @@ You need the following tools to complete the labs for this course:
 You'll use this tool to install Node.js and optionally switch Node versions as needed for your projects.
 
 1. In a web browser, navigate to [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases).
-2. Locate the latest release version and select the **nvm-setup.zip** file to download.  The file will be downloaded to your machine.
+2. Locate the latest release version and select the **nvm-setup.zip** file to download.  The file will be downloaded to your machine. ![Screenshot of nvm-setup.zip download](../../media/download-nvm-setup.png)
 3. Open the file folder and **extract** the contents of the zip folder to a folder on your machine.
 4. From the new folder, select **nvm-setup.exe** to open the setup file.
-5. Follow the prompts in the installer to install the tool using the default options.
+5. Follow the prompts in the installer to install the tool using the default options. ![Screenshot of setup nvm install](../../media/install-nvm.png)
 6. Nvm for Windows will be installed on your machine.
 
 ## Install Node.js
@@ -34,7 +34,7 @@ Install Node.js version 16.14.2, which is compatible with all of the solutions i
 4. Run the command `nvm use 16.14.2` to use this version of Node.js.
 5. Run the command `node -v` to confirm that you have version 16.14.2 installed.
 
-You have now installed and configured Node.js version 16.14.2
+You have now installed and configured Node.js version 16.14.2 ![Screenshot of install npm](../../media/nvm-install-npm.png)
 
 ## Azure subscription
 
