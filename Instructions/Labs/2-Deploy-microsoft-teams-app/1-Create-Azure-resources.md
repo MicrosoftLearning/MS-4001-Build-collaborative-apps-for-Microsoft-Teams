@@ -49,6 +49,7 @@ Sign into Azure using your **Azure subscription** account.
 1. In the dialog that appears, select **Sign in**.
 
     ![Screenshot of a dialog to confirm the sign-in to Azure.](../../media/sign-into-azure-alert.png)
+    ![Screenshot of signed in to Azure](../../media/signed-into-azure.png)
 
 ## Task 3: Provision the resources
 
@@ -72,6 +73,7 @@ Now you can provision the resources your Teams tab app needs.
 
 1. Provisioning begins for all the resources you need to host the Teams tab app in Azure. Provisioning might take a while.
 
+    ![Screenshot of provision success.](../../media/provision-success.png)
 You've now successfully provisioned all the resources you need to host the Teams tab application.
 
 Next, you'll deploy the source code of your app to these resources.

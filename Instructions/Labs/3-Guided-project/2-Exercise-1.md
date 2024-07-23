@@ -146,3 +146,5 @@ Preview your app in the Teams client to test the functionality.
 5. When the message extension loads in the Teams client, enter a letter to search users by display name.  Select a result to insert a card into the conversation.
 
 Note: If for any reason the message extension is not automatically invoked, you can access it by entering "@Contact Details dev" in the command bar at the top of the Teams client or in the compose message area.  You can also use the **Actions and apps** button from the Compose message area to locate the app.
+
+   ![Screenshot of invoking message extension](../../media/invoke-message-extension.png)
