@@ -37,7 +37,7 @@ Use the AI Chat Bot template to create a new bot:
 1. From the **New Project** menu, select **Custom Copilot** then select **Basic AI Chatbot** to build a command bot.
 1. For Programming Language, select **TypeScript**.
 1. For **Service for Large Language Model(LLMs)**, choose either **Azure OpenAI** or **OpenAI** based on your LLM account.
-1. Enter your OpenAI key and endpoint as prompted based on your LLM account type. Or press Enter to skip first. Set up the OpenAI key in the next step.
+1. Press **Enter** to skip Large Language Model(LLMs) setting first. Will set up the OpenAI key in the next step.
 1. For **workspace folder** select or create a folder to store your project files on your computer.
 1. For **Application name**, enter **WeeklyReportChatBot** then press **Enter**. Teams Toolkit will scaffold a new app and open the project folder in Visual Studio Code.
 1. You may receive a message from Visual Studio Code that asks if you trust the authors of the files in this folder. Select the **Yes, I trust the authors** button to continue.
@@ -62,7 +62,7 @@ Use the AI Chat Bot template to create a new bot:
 
 **Goal:** Develop the core functionalities of your bot by modifying the app.ts file, adding necessary imports, and implementing response logic to handle user interactions.  
 
-1. Open the file *src/app.ts*. We will modify this file according to the following steps. The final file can be referenced in [app.ts](../../../Allfiles/Labs/Guided-Exercise5/app.ts).
+1. Open the file *src/app/app.ts*. We will modify this file according to the following steps. The final file can be referenced in [app.ts](../../../Allfiles/Labs/Guided-Exercise5/app.ts).
 1. Add `TurnContext` import from `botbuilder` 
     ```typescript
     import { MemoryStorage, TurnContext } from "botbuilder";

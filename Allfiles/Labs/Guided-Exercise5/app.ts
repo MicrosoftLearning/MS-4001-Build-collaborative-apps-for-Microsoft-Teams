@@ -4,7 +4,7 @@ import * as path from "path";
 // See https://aka.ms/teams-ai-library to learn more about the Teams AI library.
 import { Application, ActionPlanner, OpenAIModel, PromptManager, DefaultConversationState, TurnState } from "@microsoft/teams-ai";
 
-import config from "./config";
+import config from "../config";
 
 // Register project information item related handlers
 interface ProjectInformation {

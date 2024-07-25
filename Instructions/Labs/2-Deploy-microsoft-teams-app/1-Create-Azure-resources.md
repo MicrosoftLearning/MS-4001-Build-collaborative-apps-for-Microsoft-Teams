@@ -34,6 +34,8 @@ In this exercise, you'll first create and provision a Teams tab app by using Tea
 
 1. When the app is tested successfully, stop running the app locally.
 
+    ![Screenhot of the debugging tab app](../../media/launch-debug-tab-app.png)
+
 1. To end the debug session and stop running the app, you can either close the browser, select **Run > Stop Debugging**, or select **Shift+F5**.
 
 ## Task 2: Sign into Azure in Teams Toolkit

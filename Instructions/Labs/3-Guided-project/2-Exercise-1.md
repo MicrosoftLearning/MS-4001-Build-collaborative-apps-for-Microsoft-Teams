@@ -102,7 +102,7 @@ Next, use Teams Toolkit to provision the resources required for the message exte
 
 ## Task 5: Configure permissions to retrieve Microsoft Graph data
 
-1. Sign into the Azure portal at [portal.azure.com](portal.azure.com) using your **Microsoft 365 admin account**.
+1. Sign into the Azure portal at [portal.azure.com](https://portal.azure.com) using your **Microsoft 365 admin account**.
 2. In the left navigation menu, navigate to **Microsoft Entra ID**.
 3. Navigate to **Manage > App registrations > All applications**.
 4. Select the **Contact Details** app registration that was created during provisioning.
