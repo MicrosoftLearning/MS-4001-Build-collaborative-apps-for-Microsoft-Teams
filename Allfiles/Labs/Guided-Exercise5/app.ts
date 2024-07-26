@@ -1,10 +1,9 @@
 import { MemoryStorage, TurnContext } from "botbuilder";
 import * as path from "path";
+import config from "../config";
 
 // See https://aka.ms/teams-ai-library to learn more about the Teams AI library.
 import { Application, ActionPlanner, OpenAIModel, PromptManager, DefaultConversationState, TurnState } from "@microsoft/teams-ai";
-
-import config from "../config";
 
 // Register project information item related handlers
 interface ProjectInformation {
@@ -23,20 +22,15 @@ type ApplicationTurnState = TurnState<ConversationState>;
 
 // Create AI components
 const model = new OpenAIModel({
-  // Use OpenAI
-  // apiKey: config.openAIKey,
-  // defaultModel: "gpt-3.5-turbo",
-
-  // Uncomment the following lines to use Azure OpenAI
   azureApiKey: config.azureOpenAIKey,
-  azureDefaultDeployment: "gpt-4",
+  azureDefaultDeployment: config.azureOpenAIDeploymentName,
   azureEndpoint: config.azureOpenAIEndpoint,
 
   useSystemMessages: true,
   logRequests: true,
 });
 const prompts = new PromptManager({
-  promptsFolder: path.join(__dirname, "../src/prompts"),
+  promptsFolder: path.join(__dirname, "../prompts"),
 });
 const planner = new ActionPlanner({
   model,
