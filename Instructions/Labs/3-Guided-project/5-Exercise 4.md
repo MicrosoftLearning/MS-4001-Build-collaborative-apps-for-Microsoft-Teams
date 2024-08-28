@@ -33,13 +33,13 @@ Use the Command Bot template to create a new bot:
 
 1. Open Visual Studio Code.
 1. On the sidebar, select the **Microsoft Teams** icon to open the **TEAMS TOOLKIT** panel.
-1. Click **Create a New App** button.
+1. Select **Create a New App** button.
 1. From the **New Project** menu, select **Bot** then select **Chat Command** to build a command bot.
 1. For Programming Language, select **TypeScript**.
 1. For **workspace folder** select or create a folder to store your project files on your computer.
 1. For **Application name**, enter **SupportCommandBot** then press **Enter**. Teams Toolkit will scaffold a new app and open the project folder in Visual Studio Code.
 1. You may receive a message from Visual Studio Code that asks if you trust the authors of the files in this folder. Select the **Yes, I trust the authors** button to continue.
-1. Review the project directories and files using the Explorer in Visual Studio Code to familiarize yourself with the source code.
+1. Review the project directories and files using the Explorer in Visual Studio Code to familiarize yourself with the source code. ![Screenshot of files in explorer](../../media/explorer-bot-file.png)
 
 ## Task 2: Configure the manifest
 
@@ -190,7 +190,7 @@ If your development environment does not support Teams Toolkit dev tunnel, you c
       ```shell
       Forwarding      http://<random_string>.ngrok-free.app -> http://localhost:3978
       ```
-   1. Click `Ctrl + C` to disconnect the ngrok tunnel.
+   1. Select `Ctrl + C` to disconnect the ngrok tunnel.
 1. Navigate to the `.vscode` folder then open the `task.json` file. Update `Start local tunnel` task:
    ```json
     {
@@ -266,6 +266,6 @@ Run your app locally to test the functionality:
 
 1. Open the **TEAMS TOOLKIT** pannel. In the **DEVELOPMENT** menu, select **Preview Your Teams App** (or use the `F5` key) then select **Debug in Teams ()** with your preferred browser.  
 2. Teams Toolkit will provision and run your app locally in a browser.
-3. On the app installation dialog in the browser, select **Add** to install your Teams app.  Teams opens a conversation with your bot installed.
+3. On the app installation dialog in the browser, select **Add** to install your Teams app.  Teams opens a conversation with your bot installed. ![Screenshot of adding SupportCommandBotlocal](../../media/add-supportcommandbotlocal.png)
 4. Enter or select the command `resetPassword`.
-5. Verify that the bot replies with an adaptive card containing password reset instructions.
+5. Verify that the bot replies with an adaptive card containing password reset instructions. ![Screenshot of SupportCommandBotlocal running](../../media/supportcommandbotlocal-run.png)

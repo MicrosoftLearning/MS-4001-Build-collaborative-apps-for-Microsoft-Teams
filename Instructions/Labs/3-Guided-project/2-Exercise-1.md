@@ -102,7 +102,7 @@ Next, use Teams Toolkit to provision the resources required for the message exte
 
 ## Task 5: Configure permissions to retrieve Microsoft Graph data
 
-1. Sign into the Azure portal at [portal.azure.com](portal.azure.com) using your **Microsoft 365 admin account**.
+1. Sign into the Azure portal at [portal.azure.com](https://portal.azure.com) using your **Microsoft 365 admin account**.
 2. In the left navigation menu, navigate to **Microsoft Entra ID**.
 3. Navigate to **Manage > App registrations > All applications**.
 4. Select the **Contact Details** app registration that was created during provisioning.
@@ -146,3 +146,5 @@ Preview your app in the Teams client to test the functionality.
 5. When the message extension loads in the Teams client, enter a letter to search users by display name.  Select a result to insert a card into the conversation.
 
 Note: If for any reason the message extension is not automatically invoked, you can access it by entering "@Contact Details dev" in the command bar at the top of the Teams client or in the compose message area.  You can also use the **Actions and apps** button from the Compose message area to locate the app.
+
+   ![Screenshot of invoking message extension](../../media/invoke-message-extension.png)

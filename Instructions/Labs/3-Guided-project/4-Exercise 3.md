@@ -33,7 +33,7 @@ You will need to complete the following tasks to complete the exercise:
 
 A notification appears when all folders and files have been scaffolded successfully, and a new instance of Visual Studio Code opens the new project folder.
 
-In the **EXPLORER** panel, the *src* folder contains the source code for your app. Files outside the *src* folder are server related, such as the bot.
+In the **EXPLORER** panel, the *src* folder contains the source code for your app. Files outside the *src* folder are server related, such as the bot. ![Screenshot of files in explorer](../../media/explorer-tab-file.png)
 
 ## Task 2: Update the app to retrieve and display the user's locale
 
@@ -91,6 +91,6 @@ Run your app in debug mode to test the functionality.
    - In Visual Studio Code, navigate to the **Run and debug** menu.  Select **Debug in Teams** with your desired browser option then select the **Start debugging** button.
    - In the **ENVIRONMENT** section of Teams Toolkit, open the *local* folder, and then and select the browser of your choice.
 
-3. After Visual Studio Code performs some checks, with actions viewable on the **Console** tab, a new browser window opens. In the **UserInfoApplocal** dialog, select the **Add** button to install the app in Teams for preview.
+3. After Visual Studio Code performs some checks, with actions viewable on the **Console** tab, a new browser window opens. In the **UserInfoApplocal** dialog, select the **Add** button to install the app in Teams for preview. ![Screenshot of adding UserInfoApplocal](../../media/add-userinfoapplocal.png)
 
-The app is now viewable on the sidebar. The app is pre-configured with two tabs: **Personal Tab** and **About**. Verify that the locale code is displayed in the tab.
+The app is now viewable on the sidebar. The app is pre-configured with two tabs: **Personal Tab** and **About**. Verify that the locale code is displayed in the tab. ![Screenshot of UserInfoApplocal in web](../../media/userinfoapplocal-run.png)

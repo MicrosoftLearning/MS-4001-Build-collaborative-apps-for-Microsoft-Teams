@@ -2,7 +2,7 @@
 
 In this exercise, you'll first create and provision a Teams tab app by using Teams Toolkit for Visual Studio Code. In a later exercise, you'll set up the app to be hosted in Azure.
 
-**Note**:  The exercises in this training module use Teams Toolkit v5.6.0. The following steps assume the Teams Toolkit extension is installed.
+**Note**:  The exercises in this training module use Teams Toolkit v5.8.0. The following steps assume the Teams Toolkit extension is installed.
 
 ## Task 1: Create a new tab app
 
@@ -34,6 +34,8 @@ In this exercise, you'll first create and provision a Teams tab app by using Tea
 
 1. When the app is tested successfully, stop running the app locally.
 
+    ![Screenhot of the debugging tab app](../../media/launch-debug-tab-app.png)
+
 1. To end the debug session and stop running the app, you can either close the browser, select **Run > Stop Debugging**, or select **Shift+F5**.
 
 ## Task 2: Sign into Azure in Teams Toolkit
@@ -49,6 +51,7 @@ Sign into Azure using your **Azure subscription** account.
 1. In the dialog that appears, select **Sign in**.
 
     ![Screenshot of a dialog to confirm the sign-in to Azure.](../../media/sign-into-azure-alert.png)
+    ![Screenshot of signed in to Azure](../../media/signed-into-azure.png)
 
 ## Task 3: Provision the resources
 
@@ -72,6 +75,7 @@ Now you can provision the resources your Teams tab app needs.
 
 1. Provisioning begins for all the resources you need to host the Teams tab app in Azure. Provisioning might take a while.
 
+    ![Screenshot of provision success.](../../media/provision-success.png)
 You've now successfully provisioned all the resources you need to host the Teams tab application.
 
 Next, you'll deploy the source code of your app to these resources.
