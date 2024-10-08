@@ -1,3 +1,5 @@
+**This course will be retiring on  **2024/8/30**.  Once course is retired, all GitHub repos will be removed. Thank you.**
+
 # MS-4001: Build collaborative apps for Microsoft Teams
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
