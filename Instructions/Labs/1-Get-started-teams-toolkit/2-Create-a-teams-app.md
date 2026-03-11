@@ -1,3 +1,18 @@
+---
+lab:
+  title: 'Exercise 2: Create a Teams app using Teams Toolkit'
+  description: Teams Toolkit for Visual Studio Code offers two methods for creating
+    a new app. You can create a new app using the built-in templates provided by the
+    toolkit. Additionally, Teams Toolkit for Visual Studio Code also provides a collection
+    of samples that are ready for you to explore and create your base app from.
+  duration: 32 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Visual Studio
+  - Visual Studio Code
+---
+
 # Exercise 2: Create a Teams app using Teams Toolkit
 
 Teams Toolkit for Visual Studio Code offers two methods for creating a new app. You can create a new app using the built-in templates provided by the toolkit. Additionally, Teams Toolkit for Visual Studio Code also provides a collection of samples that are ready for you to explore and create your base app from. 
