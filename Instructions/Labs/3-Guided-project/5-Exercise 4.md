@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Build a Bot'
-    module: 'Exercise 4'
+  title: Build a Bot
+  module: Exercise 4
+  description: Suppose the IT Support team you are supporting receives a high volume
+    of common, repetitive queries from employees across the organization. These queries
+    often involve simple issues like password resets, software installation instructions,
+    or troubleshooting common errors.
+  duration: 17 minutes
+  level: 300
+  islab: true
 ---
 
 # Exercise 4: Build a Bot
