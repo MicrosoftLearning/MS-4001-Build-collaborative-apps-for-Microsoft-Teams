@@ -1,3 +1,13 @@
+---
+lab:
+  title: Lab Setup
+  description: Complete the following tasks to prepare your development environment
+    prior to completing the labs.
+  duration: 42 minutes
+  level: 200
+  islab: true
+---
+
 # Lab Setup
 
 Complete the following tasks to prepare your development environment prior to completing the labs.
