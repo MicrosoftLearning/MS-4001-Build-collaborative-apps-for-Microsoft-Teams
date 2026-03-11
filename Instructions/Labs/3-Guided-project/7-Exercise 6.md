@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Build a Basic Bot'
-    module: 'Exercise 6'
+  title: Build a Basic Bot
+  module: Exercise 6
+  description: Suppose you have been asked to help the IT Support team build a Teams
+    bot. This bot will have the capability to retrieve the abbreviation for a given
+    state and also fetch the current weather conditions for a specific area based
+    on its ZIP Code.
+  duration: 15 minutes
+  level: 200
+  islab: true
 ---
 
 # Exercise 6: Build a Basic Bot
