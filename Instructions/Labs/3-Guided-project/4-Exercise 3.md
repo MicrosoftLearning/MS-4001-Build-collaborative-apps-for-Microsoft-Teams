@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Create a Teams Tab'
-    module: 'Exercise 3'
+  title: Create a Teams Tab
+  module: Exercise 3
+  description: Suppose the IT Support team wants to create a Teams tab to help users
+    access necessary information when submitting support tickets. For example, the
+    team needs to display users' locale codes for ticket processing and reporting.
+    Your current task is to create this tab to display a user's locale code. Additional
+    information will be added to the tab at a later date.
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Exercise 3: Create a Teams Tab
