@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Build a Bot with AI'
-    module: 'Exercise 4'
+  title: Build a Bot with AI
+  module: Exercise 4
+  description: Imagine you're a member of the IT Support team. You realize that compiling
+    the Weekly Report is a very mechanical and time-consuming process. You wish to
+    create an AI bot within MS Teams. By simply discussing the weekly work items and
+    tasks for the upcoming week with the bot in a conversation, it can generate a
+    well-formatted weekly report. This could significantly improve work efficiency.
+  duration: 20 minutes
+  level: 300
+  islab: true
 ---
 
 # Exercise 4: Build a Bot with AI
