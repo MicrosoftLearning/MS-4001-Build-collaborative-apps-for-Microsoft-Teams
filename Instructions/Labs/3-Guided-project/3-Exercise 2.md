@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Create an Incoming Webhook'
-    module: 'Exercise 2'
+  title: Create an Incoming Webhook
+  module: Exercise 2
+  description: Your task is to create a new Incoming Webhook, named Alerts, to receive these messages. You should also test the webhook to ensure it can accept and display a message with the string "Testing the Alerts endpoint." correctly. The team will update the service with the webhook endpoint URL when you complete your tasks.
+  duration: 8 minutes
+  level: 200
+  islab: true
 ---
 
 # Exercise 2: Create an Incoming Webhook
