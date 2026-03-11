@@ -1,7 +1,18 @@
 ---
 lab:
-    title: 'Implement a message extension that retrieves data from Microsoft Graph'
-    module: 'Exercise 1'
+  title: Implement a message extension that retrieves data from Microsoft Graph
+  module: Exercise 1
+  description: Suppose you have been asked to help the IT Support team build a message
+    extension that allows team members to retrieve contact information for users and
+    insert the contact details into messages in Teams using cards.  In this exercise,
+    you will implement a message extension that retrieves user data from Microsoft
+    Graph.  The solution has already been scaffolded using Teams Toolkit, but you
+    will need to make changes to implement functionality.
+  duration: 25 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Microsoft Graph
 ---
 
 # Exercise 1: Implement a message extension that retrieves data from Microsoft Graph
