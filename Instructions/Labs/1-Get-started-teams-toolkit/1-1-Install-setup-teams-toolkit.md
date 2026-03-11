@@ -1,3 +1,16 @@
+---
+lab:
+  title: 'Exercise 1: Install and set up Teams Toolkit for Visual Studio Code'
+  description: In this exercise, you'll install Teams Toolkit for Visual Studio Code
+    and set up your environment.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Visual Studio
+  - Visual Studio Code
+---
+
 # Exercise 1: Install and set up Teams Toolkit for Visual Studio Code
 
 In this exercise, you'll install Teams Toolkit for Visual Studio Code and set up your environment.
