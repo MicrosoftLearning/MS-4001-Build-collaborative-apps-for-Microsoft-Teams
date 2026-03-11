@@ -1,3 +1,15 @@
+---
+lab:
+  title: 'Exercise 2: Deploy your app''s source code'
+  description: In this exercise, you deploy the source code to your provisioned Azure
+    resources.
+  duration: 20 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Azure
+---
+
 # Exercise 2: Deploy your app's source code
 
 In this exercise, you deploy the source code to your provisioned Azure resources.
