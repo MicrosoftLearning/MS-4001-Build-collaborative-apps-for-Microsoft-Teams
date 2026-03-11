@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Exercise 3: Publish your Teams tab app'
+  description: In this exercise, you learn how to publish your app to the organization store.
+  duration: 40 minutes
+  level: 100
+  islab: true
+---
+
 # Exercise 3: Publish your Teams tab app
 
 In this exercise, you learn how to publish your app to the organization store.
