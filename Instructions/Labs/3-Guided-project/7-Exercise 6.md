@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Build a Basic Bot'
-    module: 'Exercise 6'
+  title: Build a Basic Bot
+  module: Exercise 6
+  description: In this exercise, you will use the Teams Toolkit template to create a simple Teams bot. This bot will utilize the Teams AI library to process messages with users and include interactions using Adaptive Cards. Please note that this exercise does not involve interactions between the Teams AI library and LLMs.
+  duration: 15 minutes
+  level: 200
+  islab: true
 ---
 
 # Exercise 6: Build a Basic Bot
