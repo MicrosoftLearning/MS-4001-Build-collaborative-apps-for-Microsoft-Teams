@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Exercise 3: Run your Teams app'
+  description: In this exercise you will run the Teams app locally.
+  duration: 36 minutes
+  level: 100
+  islab: true
+---
+
 # Exercise 3: Run your Teams app
 
 In this exercise you will run the Teams app locally.
