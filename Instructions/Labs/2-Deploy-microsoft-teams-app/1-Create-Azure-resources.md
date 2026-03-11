@@ -1,3 +1,16 @@
+---
+lab:
+  title: 'Exercise 1: Create Azure resources to host a Teams tab app'
+  description: In this exercise, you'll first create and provision a Teams tab app by using Teams Toolkit for Visual Studio Code. In a later exercise, you'll set up the app to be hosted in Azure.
+  duration: 58 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Azure
+    - Visual Studio
+    - Visual Studio Code
+---
+
 # Exercise 1: Create Azure resources to host a Teams tab app
 
 In this exercise, you'll first create and provision a Teams tab app by using Teams Toolkit for Visual Studio Code. In a later exercise, you'll set up the app to be hosted in Azure.
