@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Create an Incoming Webhook'
-    module: 'Exercise 2'
+  title: Create an Incoming Webhook
+  module: Exercise 2
+  description: Suppose the IT Support team uses a third-party notification service
+    to manage alerts and messages. Recently, the team decided to automate the process
+    of posting messages to a Teams channel that is used for critical updates.  The
+    third-party service is being designed to post messages via a webhook.
+  duration: 8 minutes
+  level: 200
+  islab: true
 ---
 
 # Exercise 2: Create an Incoming Webhook
