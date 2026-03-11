@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Build a Bot'
-    module: 'Exercise 4'
+  title: Build a Bot
+  module: Exercise 4
+  description: 'Use the Command Bot template to create a new bot:'
+  duration: 17 minutes
+  level: 300
+  islab: true
 ---
 
 # Exercise 4: Build a Bot
