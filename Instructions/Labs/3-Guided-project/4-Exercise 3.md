@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Create a Teams Tab'
-    module: 'Exercise 3'
+  title: Create a Teams Tab
+  module: Exercise 3
+  description: 'You will need to complete the following tasks to complete the exercise:'
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Exercise 3: Create a Teams Tab
